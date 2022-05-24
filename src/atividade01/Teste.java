@@ -39,8 +39,6 @@ public class Teste {
         System.out.println("potenciaMotor: " + veiculo5.getMotor().getPotencia());       
         System.out.println("************************************************************");		
 
-	}
-	
-	
+	}	
 
 }
