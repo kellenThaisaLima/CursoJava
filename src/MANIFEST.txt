@@ -1,3 +1,3 @@
-Main-Class: atividadeWebConfFaltantes.TstLocacao
-Name: atividadeWebConfFaltantes/TstLocacao.class
+Main-Class: atividade03.Teste
+Name: atividade03/Teste.class
 Java-Bean: True
