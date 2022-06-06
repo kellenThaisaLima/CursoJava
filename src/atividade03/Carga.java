@@ -40,7 +40,7 @@ final public class Carga extends Veiculo {
 
 	@Override
 	float calcVel(float velocMax) {
-		float parseMetros = this.getVelocMax()/100000;
+		float parseMetros = this.getVelocMax()*100000;
 		return parseMetros;
 	}
 
@@ -56,7 +56,7 @@ final public class Carga extends Veiculo {
 		System.out.println("Veículo de Carga: " + hashCode());
         System.out.println("Carga Máxima: " + this.cargMax);
         System.out.println("Tara: " + this.tara);  
-        System.out.println("A velocidade do veículo de carga é " + this.calcVel(getVelocMax()) + " cm/h"); 
+        System.out.println("A velocidade do veículo de carga é " + calcVel(getVelocMax()) + " cm/h"); 
         System.out.println("************************************************************");        
 		return null;
 	}

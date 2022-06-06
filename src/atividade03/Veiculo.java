@@ -51,7 +51,7 @@ public abstract class Veiculo {
 	}
 
 
-	public void setPlaca(String placa) {
+	final public void setPlaca(String placa) {
 		this.placa = placa;
 	}
 
@@ -61,7 +61,7 @@ public abstract class Veiculo {
 	}
 
 
-	public void setMarca(String marca) {
+	final public void setMarca(String marca) {
 		this.marca = marca;
 	}
 
@@ -71,7 +71,7 @@ public abstract class Veiculo {
 	}
 
 
-	public void setModelo(String modelo) {
+	final public void setModelo(String modelo) {
 		this.modelo = modelo;
 	}
 
@@ -81,7 +81,7 @@ public abstract class Veiculo {
 	}
 
 
-	public void setCor(String cor) {
+	final public void setCor(String cor) {
 		this.cor = cor;
 	}
 
@@ -91,7 +91,7 @@ public abstract class Veiculo {
 	}
 
 
-	public void setVelocMax(float velocMax) {
+	final public void setVelocMax(float velocMax) {
 		this.velocMax = velocMax;
 	}
 
@@ -101,7 +101,7 @@ public abstract class Veiculo {
 	}
 
 
-	public void setQtdRodas(int qtdRodas) {
+	final public void setQtdRodas(int qtdRodas) {
 		this.qtdRodas = qtdRodas;
 	}
 

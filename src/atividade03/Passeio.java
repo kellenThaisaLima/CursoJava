@@ -25,7 +25,7 @@ final public class Passeio extends Veiculo{
 
 	@Override
 	float calcVel(float velocMax) {
-		float parseMetros = getVelocMax()/1000;
+		float parseMetros = getVelocMax()*1000;
 		return parseMetros;
 	}
 

@@ -19,7 +19,7 @@ public class Motor {
 		return qtdPist;
 	}
 
-	public void setQtdPist(int qtdPist) {
+	final public void setQtdPist(int qtdPist) {
 		this.qtdPist = qtdPist;
 	}
 
@@ -27,7 +27,7 @@ public class Motor {
 		return potencia;
 	}
 
-	public void setPotencia(int potencia) {
+	final public void setPotencia(int potencia) {
 		this.potencia = potencia;
 	}
 	
